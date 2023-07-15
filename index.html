@@ -7,50 +7,66 @@
     <link href="/dist/output.css" rel="stylesheet">
 </head>
 <body>
-    <div class="contaiber grid">
+    <div class="contaiber grid min-w-full">
         <div class="firstDiv grid">
-            <div class="nav m-4">
-                <ul class="flex justify-end mr-10  gap-3  text-sm">
+            <img src="img/buehne_startseite.svg" alt="">
+            <div class="nav absolute top-0 bg-white  left-0 py-4 w-full">
+                <ul class="flex justify-end mr-14  gap-3  text-sm">
                     <li class="text-slate-600">News   |</li>
                     <li class="text-slate-600">Contact   |</li>
                     <li>English</li>
-                    <div class="arrow absolute top-1 right-4 rotate-90">
+                    <div class="arrow absolute top-1 right-4 rotate-90 ">
                         <img class="" src="img/submenu_small_closed.svg" alt="">
                     </div>
                     
                 </ul>
             </div>
             <div class="body">
-                <img src="img/buehne_startseite.svg" alt="">
                 <div class="Matbox absolute top-0  w-48 ml-14">
                     <img src="img/logo-small.svg" alt="">
                 </div>
                 <div class="nav2 flex bg-[#C30A17] text-white absolute top-16 pl-4  text-xl left-64 ml-4">
                     <ul class="flex gap-9 pt-2 pr-7">
-                        <li>Portfolio</li>
-                        <li>Industries</li>
-                        <li>Customers</li>
-                        <li>About us</li>
-                        <li>Careers</li>
+                        <li class="">Portfolio</li>
+                        <li class="">Industries</li>
+                        <li class="">Customers</li>
+                        <li class="">About us</li>
+                        <li class="">Careers</li>
                     </ul>
                     <div class="search bg-red-900 ml-96 w-12 h-12">
                         <img class="py-4 px-4" src="img/Servicesuche_Submit.svg" alt="">
                     </div>
                 </div>
-                <div class="bodytextImages grid grid-cols-4 gap-16 absolute top-52 mx-14">
-                    <div class="bodytext  border-8 px-4 py-4 w-96 pr-10 text-white text-4xl border-[#C30A17]">
-                        <span>WE ARE</span><br>
-                        <span>DIGITIZING YOUR</span><br>
-                        <span>WORLD</span>
+                <div class="bodyText absolute top-72 mx-14 ml-8">
+                    <div class="bodytext  border-8 px-4 py-4 w-96 pr-10 text-white border-[#C30A17]">
+                        <span class="text-4xl">WE ARE</span><br>
+                        <span class="text-4xl">DIGITIZING YOUR</span><br>
+                        <span class="text-4xl">WORLD</span><br><br>
+                        <span class="text-lg">As a key globally active IT service provider, 
+                            we advise and assist you in all aspects of 
+                            digitization and provide tailor-made technologies for agile, 
+                            flexible and secure IT.</span> <br><br><br>
                     </div>
-                    <div class="ima1 border-8 w-52 ml-40">
+                </div>
+                <div class="bodytextImages grid grid-cols-3  absolute top-72 gap-2  left-96"">
+                    
+                    <div class="ima1 border-8 w-52 ml-40 relative">
                         <img src="img/M-Startseite-Quadrat-Portfolio.jpeg" alt="">
+                        <div class="port absolute w-full bottom-0 h-10 py-2 text-white font-serif text-center bg-[#C30A17]">
+                            Portfolio
+                        </div>
                     </div>
-                    <div class="ima1 border-8 w-52 ml-24">
+                    <div class="ima1 border-8 w-52 ml-24 relative">
                         <img src="img/M-Startseite-Quadrat-Unternehmen.jpeg" alt="">
+                        <div class="port absolute w-full bottom-0 h-10 py-2 text-white font-serif text-center bg-[#C30A17]">
+                            About us
+                        </div>
                     </div>
-                    <div class="ima1 border-8 w-52 ml-12">
+                    <div class="ima1 border-8 w-52 ml-12 relative">
                         <img src="img/M-Startseite-Quadrat-Karriere.jpeg">
+                        <div class="port absolute w-full bottom-0 h-10 py-2 text-white font-serif text-center bg-[#C30A17]">
+                            Careers
+                        </div>
                     </div>
                 </div>
                 
